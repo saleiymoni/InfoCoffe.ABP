@@ -7,3 +7,23 @@ Mi emprendimiento de venta de café requiere un espacio acogedor donde los clien
 
 Para atraer a nuestros clientes, hemos creado una estrategia de marketing que incluye promociones y presencia en redes sociales, buscando siempre conectar de manera auténtica con los amantes del café. La gestión financiera es clave para mantener el negocio en marcha, controlando los costos y asegurando la rentabilidad. También nos importa el medio ambiente, por lo que usamos empaques biodegradables y buscamos ser cada vez más sostenibles en todos nuestros procesos. Todo esto con el objetivo de ofrecer una experiencia única y memorable a cada cliente que elija nuestro café.
 # Modelo Relacional 
+![image](https://github.com/user-attachments/assets/f18e70e8-580a-44dd-b44c-67431f024e29)
+
+Resumen y descripcion de las tablas:
+
+Productos: Guarda la información del café disponible para la venta, como el nombre, precio, stock, y categoría.
+
+Clientes: Contiene los datos de los clientes, para asociar ventas a personas específicas.
+
+Empleados: Información sobre los empleados que realizan las ventas.
+
+Ventas: Contiene las transacciones realizadas, asociando a un cliente y un empleado. Se puede ver el total de cada venta.
+
+Detalles de Venta: Detalles específicos sobre los productos vendidos en cada transacción (productos, cantidades y precio).
+
+Proveedores: Si necesitas controlar los proveedores del café.
+
+Compras de Café: Registra las compras realizadas a los proveedores para actualizar el stock.
+
+Detalles de Compra: Detalles específicos de los productos comprados.
+
