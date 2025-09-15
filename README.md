@@ -33,26 +33,31 @@ La aplicación ProceSmart busca optimizar la gestión de procesos internos media
 # Descripción de las tablas principales
 
 Usuarios
+
 Propósito: Almacenar toda la información de los usuarios del sistema, incluyendo estudiantes, personal administrativo y administradores.
 
 Relevancia: Es la tabla central, ya que todas las solicitudes, notificaciones y reportes dependen de los usuarios que interactúan con el sistema. Contar con esta tabla permite gestionar accesos, roles y autenticación.
 
 Solicitudes
+
 Propósito: Registrar cada trámite o petición que realiza un usuario, como certificados, permisos o solicitudes internas.
 
 Relevancia: Permite llevar un control detallado de todas las gestiones realizadas por los usuarios, conocer su estado actual y relacionarlas con los procesos asociados.
 
 Procesos
+
 Propósito: Detallar los pasos específicos que cada solicitud debe seguir para completarse.
 
 Relevancia: Facilita el seguimiento de las solicitudes, asegurando que se cumplan todos los pasos necesarios y se pueda monitorear el avance de cada trámite en tiempo real.
 
 Notificaciones
+
 Propósito: Guardar los mensajes enviados a los usuarios sobre cambios de estado en sus solicitudes o procesos.
 
 Relevancia: Mantiene a los usuarios informados de manera automática, mejorando la comunicación interna y reduciendo la necesidad de consultas manuales sobre el estado de los trámites.
 
 Reportes
+
 Propósito: Registrar reportes generados por los administradores para análisis del sistema, eficiencia y tiempos de respuesta.
 
 Relevancia: Permite a los administradores tomar decisiones basadas en datos reales, evaluar la carga de trabajo, tiempos de resolución y desempeño general del sistema.
