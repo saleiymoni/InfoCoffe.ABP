@@ -61,3 +61,7 @@ Reportes
 Propósito: Registrar reportes generados por los administradores para análisis del sistema, eficiencia y tiempos de respuesta.
 
 Relevancia: Permite a los administradores tomar decisiones basadas en datos reales, evaluar la carga de trabajo, tiempos de resolución y desempeño general del sistema.
+
+# Script del modelo físico
+<img width="856" height="858" alt="image" src="https://github.com/user-attachments/assets/904c145f-7233-4517-8330-8a33ac98fca7" />
+
