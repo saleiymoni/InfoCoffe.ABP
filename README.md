@@ -27,13 +27,12 @@ La aplicación ProceSmart busca optimizar la gestión de procesos internos media
 
 10.Avisos por correo o dentro de la app sobre cambios en el estado del proceso.
 
-#Diagrama de modelo lógico
+# Diagrama de modelo lógico
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e5f9764c-ca3d-4d97-998d-2f654bbadd79" />
 
-#Descripción de las tablas principales
+# Descripción de las tablas principales
 
 Usuarios
-
 Propósito: Almacenar toda la información de los usuarios del sistema, incluyendo estudiantes, personal administrativo y administradores.
 
 Relevancia: Es la tabla central, ya que todas las solicitudes, notificaciones y reportes dependen de los usuarios que interactúan con el sistema. Contar con esta tabla permite gestionar accesos, roles y autenticación.
