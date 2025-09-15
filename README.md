@@ -27,22 +27,37 @@ La aplicación ProceSmart busca optimizar la gestión de procesos internos media
 
 10.Avisos por correo o dentro de la app sobre cambios en el estado del proceso.
 
+#Diagrama de modelo lógico
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e5f9764c-ca3d-4d97-998d-2f654bbadd79" />
 
-Resumen y descripcion de las tablas:
+#Descripción de las tablas principales
 
-Productos: Guarda la información del café disponible para la venta, como el nombre, precio, stock, y categoría.
+Usuarios
 
-Clientes: Contiene los datos de los clientes, para asociar ventas a personas específicas.
+Propósito: Almacenar toda la información de los usuarios del sistema, incluyendo estudiantes, personal administrativo y administradores.
 
-Empleados: Información sobre los empleados que realizan las ventas.
+Relevancia: Es la tabla central, ya que todas las solicitudes, notificaciones y reportes dependen de los usuarios que interactúan con el sistema. Contar con esta tabla permite gestionar accesos, roles y autenticación.
 
-Ventas: Contiene las transacciones realizadas, asociando a un cliente y un empleado. Se puede ver el total de cada venta.
+Solicitudes
 
-Detalles de Venta: Detalles específicos sobre los productos vendidos en cada transacción (productos, cantidades y precio).
+Propósito: Registrar cada trámite o petición que realiza un usuario, como certificados, permisos o solicitudes internas.
 
-Proveedores: Si necesitas controlar los proveedores del café.
+Relevancia: Permite llevar un control detallado de todas las gestiones realizadas por los usuarios, conocer su estado actual y relacionarlas con los procesos asociados.
 
-Compras de Café: Registra las compras realizadas a los proveedores para actualizar el stock.
+Procesos
 
-Detalles de Compra: Detalles específicos de los productos comprados.
+Propósito: Detallar los pasos específicos que cada solicitud debe seguir para completarse.
 
+Relevancia: Facilita el seguimiento de las solicitudes, asegurando que se cumplan todos los pasos necesarios y se pueda monitorear el avance de cada trámite en tiempo real.
+
+Notificaciones
+
+Propósito: Guardar los mensajes enviados a los usuarios sobre cambios de estado en sus solicitudes o procesos.
+
+Relevancia: Mantiene a los usuarios informados de manera automática, mejorando la comunicación interna y reduciendo la necesidad de consultas manuales sobre el estado de los trámites.
+
+Reportes
+
+Propósito: Registrar reportes generados por los administradores para análisis del sistema, eficiencia y tiempos de respuesta.
+
+Relevancia: Permite a los administradores tomar decisiones basadas en datos reales, evaluar la carga de trabajo, tiempos de resolución y desempeño general del sistema.
