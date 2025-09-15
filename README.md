@@ -7,47 +7,17 @@ Con este propósito se propone el desarrollo de la aplicación “ProceSmart”,
 # Análisis de requerimiento 
 La aplicación ProceSmart busca optimizar la gestión de procesos internos mediante un sistema digital centralizado. Para cumplir con este objetivo, se identifican las siguientes funcionalidades principales:
 
-Gestión de usuarios
+1.Gestión de usuarios
+2.Registro y autenticación de estudiantes, docentes/empleados y administradores.
+3.Asignación de roles con diferentes niveles de acceso.
+4.Módulo de solicitudes
+5.Creación de solicitudes (ej. certificados, permisos, trámites administrativos).
+6.Visualización del estado del trámite (pendiente, en revisión, aprobado, finalizado).
+7.Panel de control para consultar el avance de cada proceso en tiempo real.
+8.Historial de trámites realizados por el usuario.
+9.Notificaciones automáticas
+10.Avisos por correo o dentro de la app sobre cambios en el estado del proceso.
 
-Registro y autenticación de estudiantes, docentes/empleados y administradores.
-
-Asignación de roles con diferentes niveles de acceso.
-
-Módulo de solicitudes
-
-Creación de solicitudes (ej. certificados, permisos, trámites administrativos).
-
-Visualización del estado del trámite (pendiente, en revisión, aprobado, finalizado).
-
-Seguimiento de procesos
-
-Panel de control para consultar el avance de cada proceso en tiempo real.
-
-Historial de trámites realizados por el usuario.
-
-Notificaciones automáticas
-
-Avisos por correo o dentro de la app sobre cambios en el estado del proceso.
-
-Recordatorios de plazos o citas relacionadas.
-
-Gestión de citas/tutorías (opcional según el entorno)
-
-Solicitud y programación de reuniones o asesorías.
-
-Confirmación y notificación de las mismas.
-
-Generación de reportes
-
-Reportes de procesos finalizados, en trámite y pendientes.
-
-Estadísticas de tiempos de respuesta y eficiencia del sistema.
-
-Interfaz intuitiva y accesible
-
-Diseño amigable para distintos perfiles de usuarios.
-
-Compatibilidad en dispositivos móviles y de escritorio.
 
 Resumen y descripcion de las tablas:
 
