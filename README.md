@@ -8,14 +8,23 @@ Con este propósito se propone el desarrollo de la aplicación “ProceSmart”,
 La aplicación ProceSmart busca optimizar la gestión de procesos internos mediante un sistema digital centralizado. Para cumplir con este objetivo, se identifican las siguientes funcionalidades principales:
 
 1.Gestión de usuarios
+
 2.Registro y autenticación de estudiantes, docentes/empleados y administradores.
+
 3.Asignación de roles con diferentes niveles de acceso.
+
 4.Módulo de solicitudes
+
 5.Creación de solicitudes (ej. certificados, permisos, trámites administrativos).
+
 6.Visualización del estado del trámite (pendiente, en revisión, aprobado, finalizado).
+
 7.Panel de control para consultar el avance de cada proceso en tiempo real.
+
 8.Historial de trámites realizados por el usuario.
+
 9.Notificaciones automáticas
+
 10.Avisos por correo o dentro de la app sobre cambios en el estado del proceso.
 
 
